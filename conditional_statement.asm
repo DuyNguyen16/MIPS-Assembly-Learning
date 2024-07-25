@@ -26,8 +26,8 @@ statement2: .asciiz "$t0 greater than $t1"
         
 
 else:
-    la		$a0, statement2		# 
-    syscall
+        la		$a0, statement2		# 
+        syscall
 
 end_else:
 

@@ -39,4 +39,4 @@ main:
 
         # QUIT PROGRAM
         li		$v0, 	10	# $v0 = 10 QUIT PROGRAM
-        syscall
+        syscall 
